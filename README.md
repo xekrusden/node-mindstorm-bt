@@ -118,7 +118,7 @@ You should see
 rfcomm0: 00:16:53:FF:01:56 channel 1 clean
 ```
 
-with your NXT's bluetooth address instead, of course.
+with your NXTs bluetooth address instead, of course.
 
 13. Make sure the device shows up in /dev and that you have permission to read/write to it.  On my system it shows it associated with the dialout group and my user account is in the dialout group as shown below.  Make sure yours looks similar.
 
