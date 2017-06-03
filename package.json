@@ -1,0 +1,18 @@
+{
+  "author": "David Askirk Fotel <davsebamse@gmail.com>",
+  "name": "mindstorms_bluetooth",
+  "description": "A nodejs module for communicating with the Lego NXT Mindstorms brick using the direct commands over bluetooth.",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davsebamse/node-mindstorm-bt.git"
+  },
+  "main": "./nxt",
+  "engines": {
+    "node": "~0.10.34"
+  },
+  "dependencies": {
+	"serialport": "1.4.9"
+  },
+  "devDependencies": {}
+}
