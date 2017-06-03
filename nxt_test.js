@@ -5,8 +5,8 @@ nxt.on('getinputvalue', function(data) {
     if(data[3] == nxt.INPUT_PORT_1){
         var adc = (data[11] << 8) | data[10];
         console.log('Touch ADC: ' + adc);
-    }
-});
+        }
+    });
 
 nxt.sp.on("open", function () {
     // Init
@@ -20,5 +20,6 @@ nxt.sp.on("open", function () {
     // Start interval
     setInterval(function(){
         nxt.get_input_values(nxt.INPUT_PORT_1);
-    }, 500);
-});
+     }, 500);
+    
+ });
