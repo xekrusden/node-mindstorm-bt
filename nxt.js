@@ -319,4 +319,4 @@ Nxt.prototype.close_connection = function (sp) {
 	this.sp.end(false, null);
 };
 
-module.exports.Nxt = Nxt;
+	module.exports.Nxt = Nxt;
